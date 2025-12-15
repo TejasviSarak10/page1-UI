@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./airbnb.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+    
+      
+          <section class="section s1">
+        <div class="logo">
+          <img
+            src="data:image/png;base64,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"
+            alt="img"
+          />
+        </div>
+
+        <div class="service">
+          <div class="Homes">
+            <img src="./home.png" alt="img1" />
+            <p>Homes</p>
+          </div>
+
+          <div class="Experiences">
+            <img src="./exp.png" alt="img2" />
+            <p>Experiences</p>
+          </div>
+
+          <div class="Services">
+            <img src="./service.png" alt="img3" />
+            <p>Services</p>
+          </div>
+        
+
+        <div class="content-2">
+        <div class="host">
+          <pre>Become a host</pre>
+        </div>
+
+        <div class="icons">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+      </section>
+      
+      <section class="section s2">
+        <div class="search">
+        <div class="where">
+            <p class="p1">Where </p>
+            <p class="p11"> Search destinations</p>
+            <span></span>
+        </div>
+        <div class="check-in">
+            <p class="p2">Check in </p>
+            <p class="p22">Add dates</p>
+            <span></span>
+        </div>
+        <div class="check-out">
+            <p class="p3">Check out</p>  
+            <p class="p33">Add dates</p>
+            <span></span>
+        </div>
+        <div class="who">
+            <p class="p4">Who </p> 
+            <p class="p44">Add guest</p>
+            </div>
+           
+           <button>
+            <i class="fa-solid fa-circle"></i>
+           </button>
+        
+      </div>
+    </div>
+      </section>
+      </div>
+     
+     <section class="section s3">
+      <div class="grid-items">
+        <div class="grid g1">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g2">
+           <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g3">
+           <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g4">
+           <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g5">
+           <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g6">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g7">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g8">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g9">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+        <div class="grid g10">
+          <figure>
+            <img src="https://www.gardenhill.in/wp-content/uploads/hotel-room.png" alt="">
+          </figure>
+          <div>
+            <p>Mamaearth facewash</p>
+            <p>Raring *3.4 </p>
+          </div>
+        </div>
+       
+      </div>
+      
+     </section>
+  </body>
+</html>
